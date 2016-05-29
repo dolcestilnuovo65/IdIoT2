@@ -1,0 +1,156 @@
+.mdl-layout{
+  height:auto!important
+}
+
+.mdl-textfield__label{
+    color: white!important;
+}
+
+.mdl-textfield__label:after{
+    background-color: white!important; 
+}
+
+main{
+  width:500px!important;
+  margin:auto
+  
+}
+
+.demo-layout-transparent {
+  background: url('https://getmdl.io/assets/demos/transparent.jpg') center / cover;
+}
+.demo-layout-transparent .mdl-layout__header,
+.demo-layout-transparent .mdl-layout__drawer-button {
+  /* This background is dark, so we set text to white. Use 87% black instead if
+     your background is light. */
+  color: white;
+} 
+
+
+
+.bubble{
+    background-color: #F2F2F2;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+    float: left;   
+    margin: 5px 45px 5px 20px; 
+	border-color: #cdecb0;
+	 
+}
+
+.bubble::before {
+    background-color: #F2F2F2;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px; 
+	
+	}
+
+.bubble{
+		background-color: #F2F2F2;
+		border-radius: 5px;
+		box-shadow: 0 0 6px #B2B2B2;
+		display: inline-block;
+		padding: 10px 18px;
+		position: relative;
+		vertical-align: top;
+		margin: 10px 10px;
+		border-color: #cdecb0;
+		width: 60%;
+		
+	}
+
+
+ chat bubbleee2 css  
+
+
+.bubble2{
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 0 0 6px blue;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+    float: left;   
+    margin: 5px 45px 5px 20px; 
+	border-color: #cdecb0;
+	
+	  }
+
+.bubble2::before {
+
+float:right;
+    background-color: white;
+    content: "\00a0";
+    display: block;
+    height: 19px;
+    /*position: absolute;*/
+	position:relative;
+    left: 26px;
+	top: 11px;
+    transform:             rotate( 205deg ) skew( -35deg );
+        -moz-transform:    rotate( 205deg ) skew( -35deg );
+        -ms-transform:     rotate( 205deg ) skew( -35deg );
+        -o-transform:      rotate( 205deg ) skew( -35deg );
+        -webkit-transform: rotate( 205deg ) skew( -35deg );
+    width:  20px;
+    box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+     
+	}
+
+.bubble2{
+		float: right;
+		width: 60%;
+		background-color: #dfeecf;
+		border-radius: 5px;
+		box-shadow: 0 0 6px #B2B2B2;
+		display: inline-block;
+		padding: 10px 18px;
+		position: relative;
+		vertical-align: top;
+		margin: 10px 10px;
+		border-color: #cdecb0;
+		
+	}
+    
+    
+    .textox {
+   margin-top:15px;
+   color:white;
+   width: auto;
+   height: auto;
+   border: solid 2px #00E3E3;
+   padding: 2px;
+   border-radius: 5px;
+   font-size: 12px;
+   box-shadow: 0px 1px 2px 0px #9C9C9C;
+   background-color: #3F51B5;
+   outline: none;
+   
+  }
+.textox:hover  {
+   border: 2px solid #FF00D5;
+  }
+.textox:focus  {
+   border: solid 2px #00D43C;
+   box-shadow: inset 0px 1px 2px 0px #9C9C9C;
+  }
+.textox:active  {
+   border: solid 2px #0043EB;
+  }
+
